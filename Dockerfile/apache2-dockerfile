@@ -5,7 +5,7 @@ FROM ubuntu:12.04
 MAINTAINER Ravi Shankar <arsr319@gmail.com>
 
 LABEL version="1.0" \
-        release="2017-10-07"
+        release="2021-08-07"
 
 RUN apt-get update && apt-get install -y apache2 && apt-get clean
 
